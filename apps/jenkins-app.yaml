@@ -2,7 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: jenkins-18
-  namespace: student-18
+  namespace: argocd
 spec:
   project: default
   destination:
